@@ -6,6 +6,10 @@
 ```
 |-- README.md  
 |-- bert-base-chinese  # 预训练BERT模型
+|   |-- config.json 
+|   |-- pytorch_model.bin 
+|   |-- tokenizer.json
+|   `-- vocab.txt 
 |-- data  # 数据 
 |   |-- data.json  # 预处理后的数据集（格式用于MTSD）
 |   |-- data.txt  # 预处理后的数据（格式用于NER）
