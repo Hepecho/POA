@@ -4,7 +4,8 @@
 这是舆情分析综合实验实体-立场任务的项目代码，实现思路采用*pipeline*，分为两个模块：*实体识别*和*基于多个实体的立场分析*，即NER+MTSD
 ## 2. 文件结构
 ```
-|-- README.md  
+|-- README.md 
+!-- requirements.txt
 |-- bert-base-chinese  # 预训练BERT模型
 |   |-- config.json 
 |   |-- pytorch_model.bin 
