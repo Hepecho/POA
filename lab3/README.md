@@ -4,8 +4,7 @@
 这是舆情分析综合实验实体-立场任务的项目代码，实现思路采用*pipeline*，分为两个模块：*实体识别*和*基于多个实体的立场分析*，即NER+MTSD
 ## 2. 文件结构
 ```
-|-- README.md
-|-- bankup  # 存放备份代码和数据  
+|-- README.md  
 |-- bert-base-chinese  # 预训练BERT模型
 |-- data  # 数据 
 |   |-- data.json  # 预处理后的数据集（格式用于MTSD）
@@ -34,7 +33,11 @@
 ```
 ## 3. 用法
 
-
+数据和预训练模型获取
+```
+data: https://github.com/Hepecho/POA/tree/master/lab3/data
+bert-base-chinese: https://huggingface.co/bert-base-chinese/tree/main
+```
 NER模型单元训练、测试
 ```
 python ner.py train
